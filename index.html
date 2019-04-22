@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Katerina Panchenko. Junior Front End Developer.">
+  <meta name="keywords"
+        content="bootstrap, creative, html5, one page, digital art, portfolio, responsive, resume, freelancer, personal, landing page, web development, css">
+  <title>Katerina Panchenko</title>
+  <link type="icon" rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/lightbox.min.css" type="text/css">
+  <link rel="stylesheet" href="css/media.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+  <script type="application/javascript" src="js/script.js"></script>
+  <script type="application/javascript" src="js/accordion.js"></script>
+</head>
+<body><!--oncontextmenu="return false"-->
+<header id="contacts">
+  <nav class="top_nav" id="nav_bar">
+    <a href="#contacts" class="scrollto">Contacts</a>
+    <a href="#details" class="scrollto">Details</a>
+  </nav>
+
+  <div class="burger">
+    <label for="menu-toggle">
+      <img src="images/iconfinder_menu-alt_134216.svg" alt="menu">
+    </label><input id="menu-toggle" type="checkbox" hidden>
+    <nav class="dropdown_menu">
+      <a href="#contacts" class="scrollto">Contacts</a>
+      <a href="#details" class="scrollto">Details</a>
+    </nav>
+  </div>
+  <div class="photo_block">
+    <span><img src="images/me.JPG" alt="photo"></span>
+  </div>
+</header>
+<section>
+  <div class="contact_block">
+    <div class="wrapper">
+      <div class="title">
+        <h1>katerina panchenko</h1>
+        <h2>junior front-end developer</h2>
+      </div>
+      <div class="info">
+        <div class="titles_info">
+          <h3>email:</h3>
+          <h3>phone:</h3>
+          <h3>address:</h3>
+          <h3>languages:</h3>
+        </div>
+        <div class="answers_info">
+          <a href="mailto:frontend.kat@gmail.com" class="mail expand" data-title="E-mail me">frontend.kat@gmail.com</a>
+          <a href="https://t.me/panchenko_kat" class="mail expand" data-title="Telegram">+3 (063) 770 96 57</a>
+          <p>Ukraine, Kharkiv</p>
+          <p>English, Ukrainian, Russian</p>
+        </div>
+        <div class="socials">
+          <form method="get" action="images/for_print.jpg">
+            <button class="download" type="submit">download cv</button>
+          </form>
+          <div class="icons">
+            <a href="skype:live:a262f2eb08ba69d2"><img src="images/iconfinder_Skype_194913.svg" alt="skype"></a>
+            <a href="https://www.linkedin.com/in/katerina-panchenko-frontend/"><img
+                    src="images/iconfinder_LinkedIn_194920.svg" alt="linkid"></a>
+            <a href="https://www.facebook.com/panchenko.kat"><img src="images/iconfinder_Facebook_194929.svg" alt="fb"></a>
+            <a href="https://www.instagram.com/panchenko__kat"><img src="images/iconfinder_Intsagram_194923.svg"
+                                                                    alt="instagram"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="details">
+
+  <div class="tab_section">
+    <div class="wrapper">
+      <div class="menu_toggle">
+        <ul class="details_menu">
+          <li>
+            <a href="#education" data-tab="education" class="menu__item item_active">education</a>
+          </li>
+          <li>
+            <a href="#employment" data-tab="employment" class="menu__item">employment</a>
+          </li>
+          <li>
+            <a href="#skills" data-tab="skills" class="menu__item">skills</a>
+          </li>
+          <li>
+            <a href="#hobbies" data-tab="hobbies" class="menu__item">hobbies</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="details_tabs details_active" id="education">
+        <div class="column">
+          <div class="item_education">
+            <div class="number">1</div>
+            <div class="name">
+              <h2>faculty of Kyiv National University of Culture and Arts</h2>
+              <h3>«designer of interior and landscape»</h3>
+              <span>2009 - 2011</span>
+            </div>
+          </div>
+          <div class="item_education wrap_tabs">
+            <div class="number">2</div>
+            <div class="name">
+              <h2>bartenders training center according to IBA</h2>
+              <h3>professional bartender</h3>
+              <span>2012</span>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item_education">
+            <div class="number">3</div>
+            <div class="name">
+              <h2>TETRA FITNESS SCHOOL
+                Personal trainer</h2>
+              <h3>gym instructor</h3>
+              <span>2015</span>
+            </div>
+          </div>
+          <div class="item_education last_item wrap_tabs">
+            <div class="number">4</div>
+            <div class="name">
+              <a href="https://beetroot.academy/" class="beetroot"><h2>BEETROOT ACADEMY, it school</h2></a>
+              <h3>FRONT-END DEVELOPer</h3>
+              <span>2018 - 2019</span>
+            </div>
+          </div>
+          <button class="certification show-modal" type="button">certificate</button>
+        </div>
+      </div>
+
+      <div class="details_tabs" id="employment">
+        <div class="column block_50">
+          <div class="item_education">
+            <div class="number">1</div>
+            <div class="name name_second">
+              <h2>Attribute service «Армія»</h2>
+              <h3>graphic designer, freelancer</h3>
+              <span>2018 - present</span>
+              <p>Graphic print design</p>
+              <p>Layout development</p>
+              <p>mock-ups</p>
+            </div>
+          </div>
+          <div class="item_education within_margin">
+            <div class="number">2</div>
+            <div class="name name_second">
+              <h2>ssc «safari»</h2>
+              <h3>seller-administrator</h3>
+              <span>2016</span>
+              <p>management of customer database</p>
+              <p>meeting and consultation of clients</p>
+              <p>Work with cash register</p>
+              <p>saling of related products</p>
+              <p>registration of the receipt</p>
+              <p>transfer of rifles to reporting books</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item_education min_margin">
+            <div class="number">3</div>
+            <div class="name name_second">
+              <h2>Q- Fit fitness studio</h2>
+              <h3>administrator</h3>
+              <span>2016 - 2017</span>
+              <p>management of customer database</p>
+              <p>meeting and consultation of clients</p>
+              <p>Work with cash register</p>
+              <p>solution of emerging problems</p>
+              <p>saling of related products</p>
+              <p> Reporting in excel</p>
+            </div>
+          </div>
+          <div class="item_education last_item within_margin">
+            <div class="number">4</div>
+            <div class="name name_second">
+              <h2>LINK Tattoo studio</h2>
+              <h3>administrator - designer</h3>
+              <span>2014 - 2015</span>
+              <p>graphic print design </p>
+              <p>Accounting of attendance database </p>
+              <p>Work with cash register </p>
+              <p>pr in social networks </p>
+              <p>purchasing of consumables </p>
+              <p>accounting of consumables in excel
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="details_tabs" id="skills">
+        <div class="column_skill first_column_skills">
+          <div class="skill_box">
+            <img src="images/html.svg" alt="html5">
+            <h3>html5</h3>
+          </div>
+          <div class="skill_box">
+            <img src="images/jquery.svg" alt="jquery">
+            <h3>jquery</h3>
+          </div>
+        </div>
+        <div class="column_skill">
+          <div class="skill_box">
+            <img src="images/js.svg" alt="javascript">
+            <h3>javascript</h3>
+          </div>
+          <div class="skill_box">
+            <img src="images/bootstrap.svg" alt="bootstrap">
+            <h3>bootstrap</h3>
+          </div>
+        </div>
+        <div class="column_skill">
+          <div class="skill_box">
+            <img src="images/css.svg" alt="css3">
+            <h3>css3</h3>
+          </div>
+          <div class="skill_box">
+            <img src="images/gulp.svg" alt="gulp">
+            <h3>gulp</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="details_tabs" id="hobbies">
+        <div class="container">
+          <div id="gallery">
+
+            <figure class="photo">
+              <a href="images/ps.JPG" data-lightbox="roadtrip" data-title="PS4"><img src="images/ps_mini.jpg" alt="PS4"></a>
+              <figcaption>PS4 games</figcaption>
+            </figure>
+            <figure class="photo">
+              <a href="images/gym.JPG" data-lightbox="roadtrip" data-title="Gym"><img src="images/gym_mini.jpg"
+                                                                                      alt="gym"></a>
+              <figcaption>Gym</figcaption>
+            </figure>
+            <figure class="photo">
+              <a href="images/illustration.JPG" data-lightbox="roadtrip" data-title="Illustration"><img
+                      src="images/illustration_mini.jpg" alt="drawing"></a>
+              <figcaption>Digital drawing</figcaption>
+            </figure>
+            <figure class="photo">
+              <a href="images/shoot.jpg" data-lightbox="roadtrip" data-title="Shooting"><img src="images/shoot_mini.jpg"
+                                                                                             alt="shoot"></a>
+              <figcaption>Guns & shooting</figcaption>
+            </figure>
+            <figure class="photo">
+              <a href="images/draw.jpg" data-lightbox="roadtrip" data-title="Illustration"><img
+                      src="images/draw_mini.jpg"
+                      alt="drawing"></a>
+              <figcaption>Digital drawing</figcaption>
+            </figure>
+            <figure class="photo">
+              <a href="images/shoot2.jpg" data-lightbox="roadtrip" data-title="Shooting"><img
+                      src="images/shoot2_mini.jpg"
+                      alt="shoot"></a>
+              <figcaption>Guns & shooting</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accord_tabs">
+    <div class="wrapper">
+      <section class="education">
+        <h3 class="title_accord">education</h3>
+        <div class="paragraph_info">
+          <h2>faculty of Kyiv National University of Culture and Arts</h2>
+          <h3>designer of interior and landscape</h3>
+          <span>2009 - 2011</span>
+          <h2>bartenders training center according to IBA</h2>
+          <h3>professional bartender</h3>
+          <span>2012</span>
+          <h2>TETRA FITNESS SCHOOL Personal trainer</h2>
+          <h3>gym instructor</h3>
+          <span>2015</span>
+          <a href="https://beetroot.academy/" class="beetroot"><h2>BEETROOT ACADEMY, it school</h2></a>
+          <h3>FRONT-END DEVELOPer</h3>
+          <span>2018 - 2019</span>
+          <button class="certification show-modal" type="button">certificate</button>
+        </div>
+      </section>
+      <section class="employment">
+        <h3 class="title_accord">employment</h3>
+        <div class="paragraph_info">
+          <div class="column_accord">
+            <h2>Attribute service «Армія»</h2>
+            <h3>graphic designer, freelancer</h3>
+            <span>2018 - present</span>
+            <p>Graphic print design</p>
+            <p>Layout development</p>
+            <p>mock-ups</p>
+            <h2>ssc «safari»</h2>
+            <h3>seller-administrator</h3>
+            <span>2016</span>
+            <p>management of customer database</p>
+            <p>meeting and consultation of clients</p>
+            <p>Work with cash register</p>
+            <p>saling of related products</p>
+            <p>registration of the receipt</p>
+            <p>transfer of rifles to reporting books</p>
+          </div>
+          <div class="second_accord_column column_accord">
+            <h2>Q- Fit fitness studio</h2>
+            <h3>administrator</h3>
+            <span>2016 - 2017</span>
+            <p>management of customer database</p>
+            <p>meeting and consultation of clients</p>
+            <p>Work with cash register</p>
+            <p>solution of emerging problems</p>
+            <p>saling of related products</p>
+            <p> Reporting in excel</p>
+            <h2>LINK Tattoo studio</h2>
+            <h3>administrator - designer</h3>
+            <span>2014 - 2015</span>
+            <p>graphic print design </p>
+            <p>Accounting of attendance database </p>
+            <p>Work with cash register </p>
+            <p>pr in social networks </p>
+            <p>purchasing of consumables </p>
+            <p>accounting of consumables in excel
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="skills">
+        <h3 class="title_accord">skills</h3>
+        <div class="paragraph_info">
+          <div class="column_skills">
+            <div class="skill_box">
+              <img src="images/html.svg" alt="html5">
+              <h3>html5</h3>
+            </div>
+            <div class="skill_box">
+              <img src="images/jquery.svg" alt="jquery">
+              <h3>jquery</h3>
+            </div>
+            <div class="skill_box">
+              <img src="images/js.svg" alt="javascript">
+              <h3>javascript</h3>
+            </div>
+          </div>
+          <div class="column_skills second_skills">
+            <div class="skill_box">
+              <img src="images/bootstrap.svg" alt="bootstrap">
+              <h3>bootstrap</h3>
+            </div>
+            <div class="skill_box">
+              <img src="images/css.svg" alt="css3">
+              <h3>css3</h3>
+            </div>
+            <div class="skill_box">
+              <img src="images/gulp.svg" alt="gulp">
+              <h3>gulp</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hobby">
+        <h3 class="title_accord">hobbies</h3>
+        <div class="paragraph_info">
+          <div class="container">
+            <div id="gallery">
+
+              <figure class="photo">
+                <a href="images/ps.JPG" data-lightbox="roadtrip" data-title="PS4"><img src="images/ps_mini.jpg" alt="PS4"></a>
+                <figcaption>PS4 games</figcaption>
+              </figure>
+              <figure class="photo">
+                <a href="images/gym.JPG" data-lightbox="roadtrip" data-title="Gym"><img src="images/gym_mini.jpg"
+                                                                                        alt="gym"></a>
+                <figcaption>Gym</figcaption>
+              </figure>
+              <figure class="photo">
+                <a href="images/illustration.JPG" data-lightbox="roadtrip" data-title="Illustration"><img
+                        src="images/illustration_mini.jpg" alt="drawing"></a>
+                <figcaption>Digital drawing</figcaption>
+              </figure>
+              <figure class="photo">
+                <a href="images/shoot.jpg" data-lightbox="roadtrip" data-title="Shooting"><img src="images/shoot_mini.jpg"
+                                                                                               alt="shoot"></a>
+                <figcaption>Guns & shooting</figcaption>
+              </figure>
+              <figure class="photo">
+                <a href="images/draw.jpg" data-lightbox="roadtrip" data-title="Illustration"><img
+                        src="images/draw_mini.jpg"
+                        alt="drawing"></a>
+                <figcaption>Digital drawing</figcaption>
+              </figure>
+              <figure class="photo">
+                <a href="images/shoot2.jpg" data-lightbox="roadtrip" data-title="Shooting"><img
+                        src="images/shoot2_mini.jpg"
+                        alt="shoot"></a>
+                <figcaption>Guns & shooting</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+<footer>
+  Design and layout of this web-CV made by Panchenko Katerina. © 2019
+</footer>
+<div class="modal-overlay" data-close>
+  <div class="modal-body">
+    <img src="images/certificate.jpg" alt="certificate">
+    <button class="modal_btn" type="button" data-close>Close</button>
+  </div>
+</div>
+
+<script type="application/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
