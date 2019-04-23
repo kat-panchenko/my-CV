@@ -266,7 +266,8 @@
 
 @media screen and (max-width: 420px) {
   header {
-    height: 240px;
+    height: 235px;
+    background-size: 100%;
   }
 
   .contact_block {
@@ -290,7 +291,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 395px) {
   .photo_block img {
     width: 16em;
     top: -35px;
@@ -315,10 +316,10 @@
   }
 
   .skill_box img {
-    width: 35%;
+    width: 40%;
   }
 
   .skill_box h3 {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
