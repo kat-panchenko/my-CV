@@ -11,16 +11,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-header {
-  height: 350px;
-}
+  header {
+    height: 350px;
+  }
+
   .contact_block {
     padding: 6em 0;
   }
+
   figure {
     margin: 0 2vw;
     text-align: center;
   }
+
   .top_nav {
     display: none;
   }
@@ -60,36 +63,51 @@ header {
   .photo_block span:before {
     display: none;
   }
+
   button:before {
     display: none;
   }
+
   .photo a:after {
     display: none;
   }
+
   .photo a:hover img {
     transform: none;
   }
+
   .photo a {
     margin-bottom: 5px;
   }
+
   figcaption {
     margin-bottom: 20px;
   }
+
   .icons img:hover {
     transform: none;
   }
+
   figure {
     margin: 0 3vw;
   }
 }
 
 @media screen and (max-width: 800px) {
+
+  .mail:before,
+  .mail:after {
+    display: none;
+  }
+
   .photo a:after {
     display: none;
   }
+
   .photo a:hover img {
     transform: none;
   }
+
   .contact_block {
     padding: 6em 0;
   }
@@ -135,9 +153,11 @@ header {
     width: 70%;
     font-size: 15px;
   }
+
   button:before {
     display: none;
   }
+
   .photo a {
     margin: 0;
     width: 90%;
@@ -147,9 +167,11 @@ header {
     margin: 0 3em;
     text-align: center;
   }
+
   .photo a:after {
     display: none;
   }
+
   figcaption {
     margin-bottom: 30px;
     width: 80%;
@@ -166,9 +188,11 @@ header {
   figure {
     margin: 0;
   }
+
   .title h1 {
     font-size: 36px;
   }
+
   .title h2 {
     font-size: 22px;
   }
@@ -178,34 +202,54 @@ header {
   figure {
     margin: 0;
   }
+
   header {
     height: 280px;
   }
+
   .title h1 {
     font-size: 30px;
   }
+
   .title h2 {
     font-size: 18px;
   }
-.photo {
-  width: 40%;
-  height: 40%;
-  margin-left: 20px;
-}
+
+  .photo {
+    width: 40%;
+    height: 40%;
+    margin-left: 20px;
+  }
+
   button {
     width: 60%;
     font-size: 13px;
     padding: 1em 0.5em;
   }
+
   button:before {
     display: none;
   }
+
   figcaption {
     margin-bottom: 20px;
     font-size: .8em;
   }
+
   .second_skills {
     float: left;
+  }
+
+  .paragraph_info {
+    padding: 10px 25px;
+  }
+
+  .skill_box img {
+    width: 45%;
+  }
+
+  .skill_box h3 {
+    font-size: 15px;
   }
 }
 
@@ -214,24 +258,34 @@ header {
     width: 16em;
     top: -35px;
   }
+
   .contact_block {
     padding: 4em 0;
   }
+
   button {
     width: 60%;
     font-size: 13px;
     padding: 1em 0.5em;
   }
+
   button:before {
     display: none;
   }
+
   .second_skills {
     float: left;
   }
-  .skill_box img {
-   width: 30%;
+
+  .paragraph_info {
+    padding: 5px 10px;
   }
+
+  .skill_box img {
+    width: 35%;
+  }
+
   .skill_box h3 {
-    font-size: 15px;
+    font-size: 11px;
   }
 }
