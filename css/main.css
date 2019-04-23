@@ -541,7 +541,7 @@ a.beetroot {
   position: relative;
 }
 
-.photo a:after {
+.photo a:after{
   height: 8em;
   width: 8em;
   position: absolute;
