@@ -136,7 +136,7 @@
 
   .icons {
     justify-content: space-evenly;
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
   }
 
@@ -321,5 +321,17 @@
 
   .skill_box h3 {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  header {
+    background-size: 100%;
+  }
+  .paragraph_info {
+    padding: 5px 2px;
+  }
+  .column_skills {
+    width: 40%;
   }
 }
