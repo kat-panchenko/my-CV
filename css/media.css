@@ -97,6 +97,7 @@
   #details {
     padding: 70px 0 50px 0;
   }
+
   .mail:before,
   .mail:after {
     display: none;
@@ -184,6 +185,7 @@
   figure {
     margin: 0 2vw;
   }
+
   #details {
     padding: 50px 0 50px 0;
   }
@@ -207,6 +209,7 @@
   #details {
     padding: 30px 0 30px 0;
   }
+
   figure {
     margin: 0;
   }
@@ -260,7 +263,20 @@
     font-size: 15px;
   }
 }
+
 @media screen and (max-width: 420px) {
+  header {
+    height: 240px;
+  }
+
+  .contact_block {
+    padding: 4em 0;
+  }
+
+  .photo_block img {
+    width: 16em;
+  }
+
   .paragraph_info {
     padding: 10px 15px;
   }
@@ -278,10 +294,6 @@
   .photo_block img {
     width: 16em;
     top: -35px;
-  }
-
-  .contact_block {
-    padding: 4em 0;
   }
 
   button {
