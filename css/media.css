@@ -94,7 +94,9 @@
 }
 
 @media screen and (max-width: 800px) {
-
+  #details {
+    padding: 70px 0 50px 0;
+  }
   .mail:before,
   .mail:after {
     display: none;
@@ -182,6 +184,9 @@
   figure {
     margin: 0 2vw;
   }
+  #details {
+    padding: 50px 0 50px 0;
+  }
 }
 
 @media screen and (max-width: 630px) {
@@ -199,6 +204,9 @@
 }
 
 @media screen and (max-width: 585px) {
+  #details {
+    padding: 30px 0 30px 0;
+  }
   figure {
     margin: 0;
   }
@@ -242,6 +250,19 @@
 
   .paragraph_info {
     padding: 10px 25px;
+  }
+
+  .skill_box img {
+    width: 45%;
+  }
+
+  .skill_box h3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .paragraph_info {
+    padding: 10px 15px;
   }
 
   .skill_box img {
