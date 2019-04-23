@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.paragraph_info').not(':first').hide();
+    $('.paragraph_info').hide();
     $('.title_accord').click(function (){
         var paragraph = $(this).next('.paragraph_info');
         var title = $(this).closest('.accord_tabs');

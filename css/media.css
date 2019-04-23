@@ -189,6 +189,10 @@
   #details {
     padding: 50px 0 50px 0;
   }
+  .contact_block {
+    padding-bottom: 3em;
+    padding-top: 5em;
+  }
 }
 
 @media screen and (max-width: 630px) {
@@ -207,7 +211,7 @@
 
 @media screen and (max-width: 585px) {
   #details {
-    padding: 30px 0 30px 0;
+    padding: 35px 0 30px 0;
   }
 
   figure {
@@ -261,6 +265,10 @@
 
   .skill_box h3 {
     font-size: 15px;
+  }
+  .contact_block {
+    padding-bottom: 2em;
+    padding-top: 4em;
   }
 }
 
@@ -321,6 +329,10 @@
 
   .skill_box h3 {
     font-size: 12px;
+  }
+  .contact_block {
+    padding-bottom: 1.5em;
+    padding-top: 4em;
   }
 }
 
