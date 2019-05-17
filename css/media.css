@@ -333,9 +333,7 @@
 }
 
 @media screen and (max-width: 385px) {
-  header {
-    background-size: 100%;
-  }
+
   .paragraph_info {
     padding: 5px 2px;
   }
