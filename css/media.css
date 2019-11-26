@@ -11,19 +11,17 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .burger {
-    display: inline-flex;
-    margin-left: auto;
-    position: relative;
+  header {
+    height: 350px;
   }
 
-  .burger label {
-    cursor: pointer;
+  .contact_block {
+    padding: 6em 0;
   }
 
-  .burger img {
-    width: 48px;
-    height: 48px;
+  figure {
+    margin: 0 2vw;
+    text-align: center;
   }
 
   .top_nav {
@@ -32,21 +30,6 @@
 
   .dropdown_menu {
     display: none;
-  }
-
-  .burger input[type='checkbox']:checked + .dropdown_menu {
-    display: block;
-    position: absolute;
-    left: 4em;
-    border-radius: 0 0 3px;
-    padding: 6px 24px;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-
-  .burger a {
-    display: block;
-    padding: 5px 12px;
-    width: 100%;
   }
 
   div.tab_section {
@@ -80,9 +63,54 @@
   .photo_block span:before {
     display: none;
   }
+
+  button:before {
+    display: none;
+  }
+
+  .photo a:after {
+    display: none;
+  }
+
+  .photo a:hover img {
+    transform: none;
+  }
+
+  .photo a {
+    margin-bottom: 5px;
+  }
+
+  figcaption {
+    margin-bottom: 20px;
+  }
+
+  .icons img:hover {
+    transform: none;
+  }
+
+  figure {
+    margin: 0 3vw;
+  }
 }
 
 @media screen and (max-width: 800px) {
+  #details {
+    padding: 70px 0 50px 0;
+  }
+
+  .mail:before,
+  .mail:after {
+    display: none;
+  }
+
+  .photo a:after {
+    display: none;
+  }
+
+  .photo a:hover img {
+    transform: none;
+  }
+
   .contact_block {
     padding: 6em 0;
   }
@@ -108,7 +136,7 @@
 
   .icons {
     justify-content: space-evenly;
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
   }
 
@@ -129,15 +157,22 @@
     font-size: 15px;
   }
 
+  button:before {
+    display: none;
+  }
+
   .photo a {
     margin: 0;
     width: 90%;
-
   }
 
   figure {
-    margin: 0;
+    margin: 0 3em;
     text-align: center;
+  }
+
+  .photo a:after {
+    display: none;
   }
 
   figcaption {
@@ -145,10 +180,165 @@
     width: 80%;
   }
 }
-@media screen and (max-width: 585px) {
-.photo {
-  width: 40%;
-  height: 40%;
-  margin-left: 20px;
+
+@media screen and (max-width: 750px) {
+  figure {
+    margin: 0 2vw;
+  }
+
+  #details {
+    padding: 50px 0 50px 0;
+  }
+  .contact_block {
+    padding-bottom: 3em;
+    padding-top: 5em;
+  }
 }
+
+@media screen and (max-width: 630px) {
+  figure {
+    margin: 0;
+  }
+
+  .title h1 {
+    font-size: 36px;
+  }
+
+  .title h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  #details {
+    padding: 35px 0 30px 0;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  header {
+    height: 280px;
+  }
+
+  .title h1 {
+    font-size: 30px;
+  }
+
+  .title h2 {
+    font-size: 18px;
+  }
+
+  .photo {
+    width: 40%;
+    height: 40%;
+    margin-left: 20px;
+  }
+
+  button {
+    width: 60%;
+    font-size: 13px;
+    padding: 1em 0.5em;
+  }
+
+  button:before {
+    display: none;
+  }
+
+  figcaption {
+    margin-bottom: 20px;
+    font-size: .8em;
+  }
+
+  .second_skills {
+    float: left;
+  }
+
+  .paragraph_info {
+    padding: 10px 25px;
+  }
+
+  .skill_box img {
+    width: 45%;
+  }
+
+  .skill_box h3 {
+    font-size: 15px;
+  }
+  .contact_block {
+    padding-bottom: 2em;
+    padding-top: 4em;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  header {
+    height: 240px;
+    background-size: 100%;
+  }
+
+  .contact_block {
+    padding: 4em 0;
+  }
+
+  .photo_block img {
+    width: 16em;
+  }
+
+  .paragraph_info {
+    padding: 10px 15px;
+  }
+
+  .skill_box img {
+    width: 45%;
+  }
+
+  .skill_box h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .photo_block img {
+    width: 16em;
+    top: -35px;
+  }
+
+  button {
+    width: 60%;
+    font-size: 13px;
+    padding: 1em 0.5em;
+  }
+
+  button:before {
+    display: none;
+  }
+
+  .second_skills {
+    float: left;
+  }
+
+  .paragraph_info {
+    padding: 5px 10px;
+  }
+
+  .skill_box h3 {
+    font-size: 12px;
+  }
+  .contact_block {
+    padding-bottom: 1.7em;
+    padding-top: 4em;
+  }
+}
+
+@media screen and (max-width: 385px) {
+
+  .paragraph_info {
+    padding: 5px 2px;
+  }
+  .column_skills {
+    width: 40%;
+    margin: 0 10px;
+  }
 }
